@@ -1,0 +1,86 @@
+/* 7aa07a oscuro
+a3d1a2 medio
+dbeddc claro*
+font-family: 'Alegreya', serif;*/
+* {
+  font-family: 'Alegreya', serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+body header {
+  top: 0%;
+  background-color: #97d3969d; }
+  body header nav {
+    background-color: #a3d1a2; }
+  body header .logo {
+    width: 5%;
+    margin: 1%; }
+  body header .navbar-brand {
+    font-size: 32px;
+    font-weight: bolder; }
+
+body main {
+  background-color: #dbeddc; }
+  body main .btn {
+    background-color: #dbeddc;
+    color: black;
+    border-color: #7aa07a; }
+    body main .btn:hover {
+      color: white;
+      border-color: #7aa07a;
+      background-color: #7aa07a; }
+  body main .text-index,
+  body main h2,
+  body main h1 {
+    margin-left: 2%;
+    margin-right: 2%; }
+  body main .foto-index {
+    width: 220px;
+    border-radius: 5%; }
+  body main .card {
+    align-items: center;
+    background-color: #a3d1a2; }
+  body main .card-group,
+  body main .card-body {
+    text-align: center; }
+
+body footer {
+  background-color: #a3d1a2; }
+  body footer .card-img-top {
+    width: 70%;
+    height: 20%;
+    text-align: center;
+    margin: 0.5%; }
+  body footer .card {
+    background-color: #a3d1a2;
+    text-align: center;
+    align-items: center; }
+
+main .form-contacto {
+  margin-left: 2%;
+  margin-right: 2%; }
+
+body main .h1 {
+  margin-left: 2%;
+  margin-right: 2%; }
+
+body main .text-index2 {
+  margin-left: 8%;
+  margin-right: 8%;
+  font-style: italic; }
+
+body main .container {
+  padding-bottom: 2%; }
+
+body main .foto-galeria {
+  width: 100%;
+  border-radius: 5%; }
+
+.col-instalaciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.h1-somos {
+  padding: 4%; }
